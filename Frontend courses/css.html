@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-color:black;color:white;"
+        <header>
+            <h1><center>CSS PROPERTIES</center></h1>
+            </header>
+            <li>1.18What is the CSS Box Model?</li>
+            <li>    </li>
+            <li>Every HTML element on a webpage is considered a box. The CSS box model describes how the size of this box is calculated, including content, padding, border, and margin</li>
+            <li>    </li>
+
+
+<b>Margin:</b>
+<p>It eliminates the elements in the area outside the border. The margin is always transparent. Here is how you define the margin.
+</p>
+    <b>Padding:</b>
+<li>It is the content box's outer edge and the border's inner edge. It is transparent in nature. The padding has 4 sides:</li>
+
+<li>1.padding-top: Padding-top is the top padding of an element.</li>
+
+<li>2.padding-right: Padding-right is the right padding of an element.</li>
+
+<li>3.padding-bottom: Padding-bottom is the bottom padding of an element.</li>
+
+<li>4.padding-left: Padding-left is the left padding of an element.</li>
+<b>Border:</b>
+It represents the edge of a CSS box, which extends around the padding and the content. You can define the below properties for a border.
+<li>border-width: It determines the thickness of the CSS borders.</li>
+
+<li>border-style: It determines how the four border lines look.</li>
+
+<li>>border-radius: It adds rounded borders to an HTML element.</li>
+
+<li>border-color: It adds color to the border.</li>
+
+
+  <header>
+    <h1>CSS Notes: Font & Text Properties, Inheritance, and Positioning</h1>
+    <p>A comprehensive guide for beginners and intermediate learners</p>
+  </header>
+    <section>
+    <h2>1. Font and Text Properties in CSS</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRODb1axOQWFQYRdRBToMhG7gauNywsFuHw&s" alt="CSS font and text example" />
+    <ol>
+      <li><strong>Font Family:</strong> Defines the typeface used in text. Common font families include serif, sans-serif, monospace, cursive, and fantasy. Example: <code>font-family: 'Arial', sans-serif;</code>.</li>
+      <li><strong>Font Size:</strong> Determines the size of text. It can be specified in pixels (px), ems, rems, or percentages. Example: <code>font-size: 16px;</code>.</li>
+      <li><strong>Font Weight:</strong> Controls how bold or light the text appears. Common values: 100–900, or keywords like <code>normal</code>, <code>bold</code>, <code>bolder</code>.</li>
+      <li><strong>Font Style:</strong> Used for italic or oblique text. Example: <code>font-style: italic;</code>.</li>
+      <li><strong>Font Variant:</strong> Creates small caps text using <code>font-variant: small-caps;</code>.</li>
+      <li><strong>Line Height:</strong> Specifies the vertical space between lines of text. It helps improve readability. Example: <code>line-height: 1.6;</code>.</li>
+      <li><strong>Letter Spacing:</strong> Adjusts space between letters. Example: <code>letter-spacing: 2px;</code>.</li>
+      <li><strong>Word Spacing:</strong> Adjusts space between words. Example: <code>word-spacing: 4px;</code>.</li>
+      <li><strong>Text Transform:</strong> Changes text case. Options: <code>uppercase</code>, <code>lowercase</code>, <code>capitalize</code>.</li>
+      <li><strong>Text Decoration:</strong> Adds effects like underline, overline, or line-through. Example: <code>text-decoration: underline;</code>.</li>
+      <li><strong>Text Align:</strong> Aligns text horizontally inside its container — <code>left</code>, <code>center</code>, <code>right</code>, or <code>justify</code>.</li>
+      <li><strong>Text Shadow:</strong> Adds shadow effects for stylish headings. Example: <code>text-shadow: 2px 2px 5px gray;</code>.</li>
+      <li><strong>Font Shorthand:</strong> Combines several font properties in one line. Example: <code>font: italic bold 16px/1.5 'Roboto', sans-serif;</code>.</li>
+    </ol>
+  </section>
+  <section>
+    <h2>2. CSS Inheritance</h2>
+    <img src="https://media2.dev.to/dynamic/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F949tuzw72nrwlqd364h1.jpg" alt="CSS inheritance diagram" />
+    <ol>
+      <li><strong>Definition:</strong> Inheritance in CSS means that some properties applied to a parent element are automatically passed down to its child elements.</li>
+      <li><strong>Inherited Properties:</strong> Typically, text-related properties (like color, font, and line-height) are inherited by default.</li>
+      <li><strong>Non-inherited Properties:</strong> Box model properties (like margin, padding, border) are not inherited automatically.</li>
+      <li><strong>Controlling Inheritance:</strong> The <code>inherit</code> keyword forces a child element to take the same value as its parent.</li>
+      <li><strong>Initial Keyword:</strong> The <code>initial</code> keyword resets a property to its default browser value.</li>
+      <li><strong>Unset Keyword:</strong> Acts as <code>inherit</code> for inherited properties and <code>initial</code> for non-inherited ones.</li>
+      <li><strong>Importance in Styling:</strong> Understanding inheritance prevents redundancy and helps maintain cleaner CSS code.</li>
+      <li><strong>Example:</strong> If you set <code>body { color: blue; }</code>, all text inside the body inherits that color unless overridden.</li>
+      <li><strong>Cascading & Specificity:</strong> Even inherited styles can be overridden by more specific selectors or inline styles.</li>
+      <li><strong>Best Practice:</strong> Use inheritance strategically to maintain design consistency and reduce repetitive code.</li>
+    </ol>
+  </section>
+    <section>
+    <h2>3. CSS Positioning</h2>
+    <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/12/CSS-Position.jpg" alt="CSS positioning example" />
+    <ol>
+      <li><strong>Definition:</strong> CSS positioning determines how elements are placed on a webpage relative to their parent or the viewport.</li>
+      <li><strong>Static Positioning:</strong> This is the default behavior; elements appear in the normal document flow without special positioning.</li>
+      <li><strong>Relative Positioning:</strong> Elements are positioned relative to their normal position using <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code>.</li>
+      <li><strong>Absolute Positioning:</strong> The element is removed from the normal flow and positioned relative to the nearest positioned ancestor.</li>
+      <li><strong>Fixed Positioning:</strong> Keeps elements fixed in place relative to the browser window, even when scrolling (e.g., sticky navigation bars).</li>
+      <li><strong>Sticky Positioning:</strong> A hybrid between relative and fixed; it acts relative until a scroll threshold is reached, then sticks to a position.</li>
+      <li><strong>Z-index:</strong> Determines stacking order of overlapping elements; higher values appear on top.</li>
+      <li><strong>Positioning Context:</strong> The nearest ancestor with a positioning property (other than static) becomes the reference for absolutely positioned children.</li>
+      <li><strong>Overlapping Elements:</strong> Use positioning carefully to prevent elements from hiding or overlapping undesirably.</li>
+      <li><strong>Practical Example:</strong> Tooltips, modals, and dropdown menus commonly use absolute or fixed positioning for precise placement.</li>
+    </ol>
+  </section>
+  
+  
+        </body>
+    </head>
+</html>
