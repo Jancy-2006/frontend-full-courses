@@ -4,13 +4,13 @@ Git.
 
 The project includes three main HTML files:
 
-frontend(1).html --- Front-end web development notes and
+* frontend(1).html --- Front-end web development notes and
 HTML/CSS/Git learning material.
 
-css(1).html --- CSS properties, the box model, font and text
+* css(1).html --- CSS properties, the box model, font and text
 properties, inheritance, and positioning.
 
-squad titans(1).html --- A simple collaborative Squad Titans
+* squad titans(1).html --- A simple collaborative Squad Titans
 webpage with squad information, projects, team members, and a
 contact form.
 
