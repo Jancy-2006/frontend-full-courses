@@ -20,7 +20,7 @@ contact form.
 
 Topics Covered
 
-1. Front-End Web Development
+1. Front-End Web Development .
 
 The front-end file introduces the three core technologies:
 
@@ -33,7 +33,7 @@ JavaScript --- adds interactive and dynamic behavior.
 It also covers HTML elements, block and inline elements, lists, tables,
 forms, CSS selectors, Git basics, and development-environment setup.
 
-2. CSS
+2. CSS .
 
 The CSS notes cover:
 
@@ -78,7 +78,7 @@ z-index
 The CSS file explains that the box model consists of content, padding,
 border, and margin.
 
-3. Squad Titans Webpage
+3. Squad Titans Webpage .
 
 The Squad Titans webpage presents a collaborative team of five frontend
 developers learning and building together.
