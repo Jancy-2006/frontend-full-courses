@@ -14,7 +14,7 @@ properties, inheritance, and positioning.
 webpage with squad information, projects, team members, and a
 contact form.
 
-Topics Covered
+Topics Covered :
 
 1. Front-End Web Development
 
