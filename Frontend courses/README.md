@@ -6,7 +6,7 @@ This repository contains beginner-friendly front-end web development
 notes and practice webpages created using HTML, CSS, JavaScript, and
 Git.
 
-The project includes three main HTML files:
+The project includes three main HTML files:  
 
 frontend(1).html --- Front-end web development notes and
 HTML/CSS/Git learning material.
@@ -18,7 +18,7 @@ squad titans(1).html --- A simple collaborative Squad Titans
 webpage with squad information, projects, team members, and a
 contact form.
 
-Topics Covered
+Topics Covered :
 
 1. Front-End Web Development .
 
