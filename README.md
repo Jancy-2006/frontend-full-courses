@@ -8,7 +8,7 @@ The project includes three main HTML files:
 HTML/CSS/Git learning material.
 
 * css(1).html --- CSS properties, the box model, font and text
-properties, inheritance, and positioning.
+properties, inheritance, and positioning.  
 
 * squad titans(1).html --- A simple collaborative Squad Titans
 webpage with squad information, projects, team members, and a
