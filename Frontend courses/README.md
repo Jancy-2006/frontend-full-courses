@@ -1,6 +1,6 @@
 Front-End Web Development Learning Project
 
-Overview :
+Overview:
 
 This repository contains beginner-friendly front-end web development
 notes and practice webpages created using HTML, CSS, JavaScript, and
