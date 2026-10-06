@@ -1,4 +1,4 @@
-This repository contains beginner-friendly front-end web development
+This repository contains a beginner-friendly front-end web development
 notes and practice webpages created using HTML, CSS, JavaScript, and
 Git .
 
