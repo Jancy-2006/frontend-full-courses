@@ -2,7 +2,7 @@ This repository contains a beginner-friendly front-end web development
 notes and practice webpages created using HTML, CSS, JavaScript, and
 Git .
 
-The project includes three main HTML files :
+The project includes three main HTML files:
 
 * frontend(1).html --- Front-end web development notes and
 HTML/CSS/Git learning material.
