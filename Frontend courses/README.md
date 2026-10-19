@@ -18,7 +18,7 @@ squad titans(1).html --- A simple collaborative Squad Titans
 webpage with squad information, projects, team members, and a
 contact form.
 
-Topics Covered :
+Topics Covered:
 
 1. Front-End Web Development .
 
